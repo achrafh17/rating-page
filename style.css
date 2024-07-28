@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 80%;
+  height: 80vh;
+  margin-top: 5%;
+}
+.text {
+  width: 40%;
+  height: 40vh;
+}
+#top {
+  color: hsl(300, 43%, 22%);
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: -10px;
+  font-family: "League Spartan", sans-serif;
+}
+#bottom {
+  color: hsl(303, 10%, 53%);
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -30px;
+  font-family: "League Spartan", sans-serif;
+}
+.partietop {
+  display: flex;
+}
+.rate {
+}
+.a {
+  width: 375px;
+  height: 50px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin-left: 50%;
+  display: flex;
+  
+
+}
+.b {
+  width: 375px;
+  height: 50px;
+  background-color: hsl(300, 24%, 96%);
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-left: 65%;
+  display: flex;
+}
+.c {
+  width: 375px;
+  height: 50px;
+  background-color: hsl(300, 24%, 96%);
+  margin-top: 25px;
+  border-radius: 10px;
+  margin-left: 80%;
+  display: flex;
+}
+.stars {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#textrate {
+    padding-left: 20px;
+    color: hsl(300, 43%, 22%);
+    font-family: "League Spartan", sans-serif;
+    font-weight: 600;
+}
+.reviews {
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+}
+.reviewa {
+    width: 30%;
+    height: 30vh;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 20px;
+ }
+ .reviewb {
+    width: 30%;
+    height: 30vh;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 15px;
+    margin-top: 10px;
+
+ }
+ .reviewc {
+    width: 30%;
+    height: 30vh;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 20px;
+    margin-top: 20px;
+ }
+ #avatar {
+    border-radius: 80%;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+ .profile {
+    display: flex;
+    gap: 30px;
+ }
+ 
+ #nom {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-weight:  700;
+
+ }
+ #verified {
+    font-family: "League Spartan", sans-serif;
+    font-weight:  700;
+    margin-top: -15px;
+    color: hsl(333, 80%, 67%);
+ }
+ #textbas {
+    padding-left: 20px;
+    padding-right: 25px;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-weight:  500;
+    font-size: 15px;
+ }
